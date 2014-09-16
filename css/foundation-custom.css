@@ -14,3 +14,16 @@ img.display {
 	margin-left: auto;
 	display: block;
 }
+
+p.fill {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+p.footer {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	text-align: center;
+}

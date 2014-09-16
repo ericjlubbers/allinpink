@@ -10,14 +10,14 @@
     <script src="js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700|Amatic+SC:400,700|Satisfy|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   </head>
-  <body>
+  <body style="background-color:#f7c1d8">
 <!-- TOP BAR -->
 <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <img src="http://placehold.it/140x45&text=Small+Logo" alt="">
+        <a href="http://allinpinkdenver.com"><img src="img/smalllogo.png" alt=""></a>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      <li class="toggle-topbar menu-icon"><a href="">Menu</a></li>
     </ul>
 
   <section class="top-bar-section">
@@ -38,26 +38,45 @@
     </ul>
 
     <!-- Left Nav Section -->
-    <ul class="left">
+<!--     <ul class="left">
       <li><a href="#">Left Nav Button</a></li>
-    </ul>
+    </ul> -->
   </section>
 </nav>
 <!-- AD ROW -->
-<div class="row">
-  <div clas="large-12 columns">
+<div class="row hide-for-small-only">
+  <div class="large-12 columns">
+    <div style="text-align:center;padding-bottom:6px;"><img src="http://placehold.it/720x90&text=Ad+1" class="display center" alt=""></div>
+  </div>
+</div>
+<div class="row show-for-small-only">
+  <div class="large-12 columns">
     <div style="text-align:center;"><img src="http://placehold.it/720x90&text=Ad+1" class="display center" alt=""></div>
   </div>
 </div>
 <!-- LARGE ROW -->
 
 <div class="row" data-equalizer>
-  <div class="medium-4 columns panel" data-equalizer-watch>
-    <img src="http://placehold.it/300x200&text=Photo+Logo" class="display" alt="">
+  <div class="medium-4 panel columns" data-equalizer-watch>
+    <img src="http://placehold.it/300x200&text=Photo+Logo" class="display hide-for-small-only" alt="">
+    <img src="http://placehold.it/600x100&text=Photo+Logo+Small" class="display show-for-small-only" alt="">
     <h2 class="sub">Catchy slogan here</h2>
+    <p class="fill">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum faucibus odio porttitor tempor. Vestibulum consequat, sapien eu consequat aliquam, lacus justo tempus lectus, sit amet convallis enim mauris vitae mi.</p>
+    <p class="fill hide-for-small-only hide-for-medium-only">Nulla mattis lobortis eros at elementum. Duis ac posuere ipsum. Nullam porta vel lorem et vehicula. Duis metus est, dapibus non nulla eget, feugiat posuere eros. Integer ante erat, placerat in purus id, facilisis volutpat metus. Sed eu diam et risus ultrices posuere. Phasellus vestibulum rhoncus consequat. Sed luctus.</p>
+    <img src="http://placehold.it/300x250&text=Ad2" class="display hide-for-small-only" alt="">
   </div>
-  <div class="medium-8 columns panel end" data-equalizer-watch>
-    <img src="http://placehold.it/700x800&text=Facebook+Widget" alt="">
+  <div class="medium-8 panel columns end" data-equalizer-watch>
+    <img src="http://placehold.it/700x1000&text=Facebook+Widget" alt="">
+  </div>
+</div>
+<div class="row show-for-small-only">
+  <div class="small-12 columns">
+  <img src="http://placehold.it/300x250&text=Ad2" class="display show-for-small-only" alt="">
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 columns">
+    <p class="footer">Footer | Footer | Footer | Footer</p>
   </div>
 </div>
 
