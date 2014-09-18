@@ -10,12 +10,30 @@
     <script src="js/vendor/modernizr.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700|Amatic+SC:400,700|Satisfy|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   </head>
-  <body style="background-color:#f7c1d8">
+  <!-- <body style="background-color:#f7c1d8"> -->
+  <body>
+   <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '688532604565551',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
 <!-- TOP BAR -->
-<nav class="top-bar" data-topbar>
+<nav class="top-bar" style="background-color:#b7006d;" data-topbar>
     <ul class="title-area">
       <li class="name">
-        <a href="http://allinpinkdenver.com"><img src="img/smalllogo.png" alt=""></a>
+        <a href="http://allinpinkdenver.com"><img src="img/smalllogopink.png" alt=""></a>
       </li>
       <li class="toggle-topbar menu-icon"><a href="">Menu</a></li>
     </ul>
@@ -46,12 +64,59 @@
 <!-- AD ROW -->
 <div class="row hide-for-small-only">
   <div class="large-12 columns">
-    <div style="text-align:center;padding-bottom:6px;"><img src="http://placehold.it/720x90&text=Ad+1" class="display center" alt=""></div>
+    <!-- <div style="text-align:center;padding-bottom:6px;"><img src="http://placehold.it/720x90&text=Ad+1" class="display center" alt=""> -->
+    <!-- begin leaderboard Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_leaderboard'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [728,90],[970,90] 'div_leaderboard').setTargeting('kv', 'pink').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_leaderboard');
+</script>
+</div>
+
+  <!-- end leaderboard Ad Tag -->
+    </div>
   </div>
 </div>
 <div class="row show-for-small-only">
   <div class="large-12 columns">
-    <div style="text-align:center;"><img src="http://placehold.it/720x90&text=Ad+1" class="display center" alt=""></div>
+    <div style="text-align:center;">
+    <!-- <img src="http://placehold.it/720x150&text=Ad+1+Small" class="" alt=""> -->
+<!-- begin Mobile Banner Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_mobilebanner'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [300,50], 'div_mobilebanner').setTargeting('kv', 'pink').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_mobilebanner');
+</script>
+</div>
+
+  <!-- end Mobile Banner Ad Tag -->
+    </div>
   </div>
 </div>
 <!-- LARGE ROW -->
@@ -63,15 +128,59 @@
     <h2 class="sub">Catchy slogan here</h2>
     <p class="fill">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum faucibus odio porttitor tempor. Vestibulum consequat, sapien eu consequat aliquam, lacus justo tempus lectus, sit amet convallis enim mauris vitae mi.</p>
     <p class="fill hide-for-small-only hide-for-medium-only">Nulla mattis lobortis eros at elementum. Duis ac posuere ipsum. Nullam porta vel lorem et vehicula. Duis metus est, dapibus non nulla eget, feugiat posuere eros. Integer ante erat, placerat in purus id, facilisis volutpat metus. Sed eu diam et risus ultrices posuere. Phasellus vestibulum rhoncus consequat. Sed luctus.</p>
-    <img src="http://placehold.it/300x250&text=Ad2" class="display hide-for-small-only" alt="">
+    <!-- <img src="http://placehold.it/300x250&text=Ad2" class="display hide-for-small-only" alt=""> -->
+    <!-- begin Cube1 Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_cube1'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [300,250], 'div_cube1').setTargeting('kv', 'pink').setTargeting('POS', 'Cube1_RRail_ATF').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_cube1');
+</script>
+</div>
+
+  <!-- end Cube1 Ad Tag -->
   </div>
-  <div class="medium-8 panel columns end" data-equalizer-watch>
-    <img src="http://placehold.it/700x1000&text=Facebook+Widget" alt="">
-  </div>
+  <div class="medium-8 columns end" data-equalizer-watch>
+    <img src="http://placehold.it/700x90&text=Pinkboard+sponsorship" class="display center" alt="">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FAllPinkinDenver&amp;width=700px&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=196528730555531" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:700px; height:590px;" allowTransparency="true"></iframe>
 </div>
 <div class="row show-for-small-only">
   <div class="small-12 columns">
-  <img src="http://placehold.it/300x250&text=Ad2" class="display show-for-small-only" alt="">
+  <!-- <img src="http://placehold.it/300x250&text=Ad2" class="display show-for-small-only" alt=""> -->
+  <!-- begin Cube1 Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_cube1'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [300,250], 'div_cube1').setTargeting('kv', 'pink').setTargeting('POS', 'Cube1_RRail_ATF').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_cube1');
+</script>
+</div>
+
+  <!-- end Cube1 Ad Tag -->
   </div>
 </div>
 <div class="row">

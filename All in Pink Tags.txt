@@ -1,0 +1,118 @@
+<!-- begin Cube1 Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_cube1'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [300,250], 'div_cube1').setTargeting('kv', 'pink').setTargeting('POS', 'Cube1_RRail_ATF').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_cube1');
+</script>
+</div>
+
+	<!-- end Cube1 Ad Tag -->
+
+
+
+
+
+
+<!-- begin Cube2 Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_cube2'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [300,250], 'div_cube2').setTargeting('kv', 'pink').setTargeting('POS', 'Cube2_RRail_mid').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_cube2');
+</script>
+</div>
+
+	<!-- end Cube2 Ad Tag -->
+
+
+
+
+
+
+
+<!-- begin Mobile Banner Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_mobilebanner'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [300,50], 'div_mobilebanner').setTargeting('kv', 'pink').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_mobilebanner');
+</script>
+</div>
+
+	<!-- end Mobile Banner Ad Tag -->
+
+
+
+
+
+
+
+<!-- begin leaderboard Ad Tag -->
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+<div id='div_leaderboard'>
+<script type='text/javascript'>
+googletag.defineSlot('/8013/denverpost.com/news', [728,90],[970,90] 'div_leaderboard').setTargeting('kv', 'pink').addService
+
+(googletag.pubads());
+googletag.pubads().enableSyncRendering();
+googletag.enableServices();
+googletag.display('div_leaderboard');
+</script>
+</div>
+
+	<!-- end leaderboard Ad Tag -->
+
+
+
+
+
+
+
+
+
+
